@@ -27,7 +27,25 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-
+Blockly.Blocks['motion_setheading'] = {
+  /**
+   * Block to set heading.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.MOTION_SETHEADING,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "ANGLE"
+        }
+      ],
+      "category": Blockly.Categories.motion,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
 Blockly.Blocks['motion_movesteps'] = {
   /**
    * Block to move steps.
