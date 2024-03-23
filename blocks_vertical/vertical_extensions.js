@@ -263,4 +263,12 @@ Blockly.ScratchBlocks.VerticalExtensions.registerAll = function() {
       Blockly.ScratchBlocks.VerticalExtensions.SCRATCH_EXTENSION);
 };
 
+/**
+ * Register the color extension for the Arduino category.
+ */
+Blockly.Extensions.register('colours_arduino',
+    Blockly.ScratchBlocks.VerticalExtensions.colourHelper('Arduino'));
+
+
+
 Blockly.ScratchBlocks.VerticalExtensions.registerAll();
