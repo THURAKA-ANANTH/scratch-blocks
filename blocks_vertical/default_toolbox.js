@@ -568,4 +568,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
   '</category>' +
+  '<category name="%{BKY_CATEGORY_ARDUINO}" id="arduino" colour="#00979D" secondaryColour="#008181">' +
+  '<block type="set_digital_pin" id="set_digital_pin"></block>' +
+  '<block type="set_pwm_pin" id="set_pwm_pin"></block>' +
+  '<block type="setup_loop_structure" id="|X0^f%kFpvF90j{2MR3e" x="50" y="50">' +
+    '<field name="SETUP_CODE">put your setup code here, to run once:</field>' +
+    '<field name="LOOP_CODE">put your main code here, to run repeatedly:</field>' +
+  '</block>' +
+' </category>' +
   '</xml>';
