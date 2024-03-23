@@ -141,7 +141,6 @@ Blockly.Msg.LOOKS_PREVIOUSBACKDROP = 'previous backdrop';
 Blockly.Msg.LOOKS_RANDOMBACKDROP = 'random backdrop';
 
 // Motion blocks
-Blockly.Msg["MOTION_SETHEADING"] = "set heading to %1";
 Blockly.Msg.MOTION_MOVESTEPS = 'move %1 steps';
 Blockly.Msg.MOTION_TURNLEFT = 'turn %1 %2 degrees';
 Blockly.Msg.MOTION_TURNRIGHT = 'turn %1 %2 degrees';
@@ -290,6 +289,7 @@ Blockly.Msg.CATEGORY_SENSING = 'Sensing';
 Blockly.Msg.CATEGORY_OPERATORS = 'Operators';
 Blockly.Msg.CATEGORY_VARIABLES = 'Variables';
 Blockly.Msg.CATEGORY_MYBLOCKS = 'My Blocks';
+Blockly.Msg.CATEGORY_ARDUINO = "Arduino";
 
 // Context menus
 Blockly.Msg.DUPLICATE = 'Duplicate';
