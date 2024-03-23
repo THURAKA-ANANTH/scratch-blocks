@@ -127,7 +127,7 @@ Blockly.Colours = {
 };
 
 /**
- * Override the colours in Blockly.Colours with new values basded on the
+ * Override the colours in Blockly.Colours with new values based on the
  * given dictionary.
  * @param {!Object} colours Dictionary of colour properties and new values.
  * @package
@@ -157,4 +157,12 @@ Blockly.Colours.overrideColours = function(colours) {
       }
     }
   }
+};
+
+// Adding Arduino colors
+Blockly.Colours.Arduino = {
+  "primary": "#3E7BFF",
+  "secondary": "#2D5DCC",
+  "tertiary": "#1F3E99",
+  "quaternary": "#1F3E99"
 };
