@@ -1,17 +1,15 @@
-Blockly.Blocks['setup_loop_structure'] = {
+Blockly.Blocks['arduino_setup_loop'] = {
   init: function() {
-    this.appendDummyInput()
-        .appendField("Setup")
-        .appendField(new Blockly.FieldTextInput("put your setup code here, to run once:"), "SETUP_CODE")
-        .appendField("Loop")
-        .appendField(new Blockly.FieldTextInput("put your main code here, to run repeatedly:"), "LOOP_CODE");
-    this.setPreviousStatement(false, null);
-    this.setNextStatement(false, null);
+    this.appendDummyInput() // Use appendDummyInput instead of appendValueInput
+        .appendField('When Arduino Uno Start Up');
+    this.setNextStatement(true, null);
     this.setColour(Blockly.Colours.Arduino.primary);
-    this.setTooltip("");
-    this.setHelpUrl("");
+    this.setTooltip('');
+    this.setHelpUrl('https://www.arduino.cc/en/Reference/Setup');
   }
 };
+
+
 
 Blockly.Blocks['set_digital_pin'] = {
   init: function() {

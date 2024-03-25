@@ -30,13 +30,6 @@ goog.require('Blockly.Blocks');
 
 Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: none">' +
   '<category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#4C97FF" secondaryColour="#3373CC">' +
-  '<block type="motion_setheading" id="motion_setheading">' +
-      '<value name="ANGLE">' +
-        '<shadow type="math_number">' +
-          '<field name="NUM">10</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
     '<block type="motion_movesteps" id="motion_movesteps">' +
       '<value name="STEPS">' +
         '<shadow type="math_number">' +
@@ -569,11 +562,11 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
   '</category>' +
   '<category name="%{BKY_CATEGORY_ARDUINO}" id="arduino" colour="#00979D" secondaryColour="#008181">' +
-  '<block type="set_digital_pin" id="set_digital_pin"></block>' +
-  '<block type="set_pwm_pin" id="set_pwm_pin"></block>' +
-  '<block type="setup_loop_structure" id="|X0^f%kFpvF90j{2MR3e" x="50" y="50">' +
-    '<field name="SETUP_CODE">put your setup code here, to run once:</field>' +
-    '<field name="LOOP_CODE">put your main code here, to run repeatedly:</field>' +
-  '</block>' +
+  '<block type="arduino_setup_loop" id="arduino_setup_loop" x="50" y="50">' +
+'</block>' +
+    '<block type="set_digital_pin" id="set_digital_pin"></block>' +
+    '<block type="set_pwm_pin" id="set_pwm_pin"></block>' +
+
 ' </category>' +
+
   '</xml>';
